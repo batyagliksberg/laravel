@@ -1,5 +1,10 @@
 name:  💄 PHP Lint
-on: push
+on: 
+  push:
+    branches: 
+      - main
+      - dev
+      - feature/*
 
 jobs:
   build:
